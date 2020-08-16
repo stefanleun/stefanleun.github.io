@@ -1,18 +1,13 @@
-<template>
-  <div class="columns">
-    <div class="column is-3">
-      <div id="app-logo">
-        <img alt="Vue logo" src="@/assets/vegetables.svg">
-        <h3>appetizer</h3>
-      </div>
-      <Sidebar/>
-    </div>
-    <div class="column is-9">
-      <div id="main">
-        <Nuxt />
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  .columns
+    .column.is-3
+      #app-logo
+        img(alt="Vue logo", src="@/assets/vegetables.svg")
+        h3 stefanleun
+      Sidebar
+    .column.is-9
+      .main
+        Nuxt
 </template>
 
 <style lang="sass">

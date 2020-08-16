@@ -1,5 +1,3 @@
-<template>
-  <div class="container">
-    Impressum
-  </div>
+<template lang="pug">
+  .container Impressum
 </template>

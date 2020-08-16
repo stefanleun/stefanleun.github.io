@@ -1,5 +1,3 @@
-<template>
-  <div class="container">
-    About?
-  </div>
+<template lang="pug">
+  .container About?
 </template>

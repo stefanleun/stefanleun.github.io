@@ -1,5 +1,3 @@
-<template>
-  <div class="container">
-    Portfolio
-  </div>
+<template lang="pug">
+  .container Portfolio
 </template>
