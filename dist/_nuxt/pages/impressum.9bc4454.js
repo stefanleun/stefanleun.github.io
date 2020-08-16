@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{215:function(n,t,e){"use strict";e.r(t);var c=e(15),component=Object(c.a)({},(function(){var n=this.$createElement;return(this._self._c||n)("div",{staticClass:"container"},[this._v("\n  Impressum\n")])}),[],!1,null,null,null);t.default=component.exports}}]);
