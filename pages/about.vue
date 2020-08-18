@@ -1,3 +1,5 @@
 <template lang="pug">
-  .container About?
+  div
+    h1.title About
+    h2.subtitle Coming soon...
 </template>

@@ -1,8 +1,6 @@
 <template lang="pug">
   .hero
     .container
-      div
-        Logo
         h1.title ++ Under Construction ++
         .links
           a(
