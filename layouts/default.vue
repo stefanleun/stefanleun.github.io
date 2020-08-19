@@ -13,20 +13,8 @@
 <style lang="sass">
 @import '~/assets/sass/variables.sass'
 
-//
-// #app
-//     -webkit-font-smoothing: antialiased;
-//     -moz-osx-font-smoothing: grayscale;
-
 .main
     height: 100%;
-    padding: 20px;
+    padding: 50px;
 
-// $app-logo-width: 50px;
-
-//#app-logo
-//    color: $green;
-//     padding: 20px;
-//     img
-//         width:   $app-logo-width
 </style>
