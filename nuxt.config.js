@@ -35,6 +35,7 @@ export default {
     },
   },
   router: {
-    linkExactActiveClass: 'is-active'
+    linkExactActiveClass: 'is-active',
+    base: '/stefanleun.github.io/'
   }
 }
