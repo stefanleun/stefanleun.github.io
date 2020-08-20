@@ -13,7 +13,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Lato:wght@300;400&display=swap|Prata'
+        href: 'https://fonts.googleapis.com/css?family=Lato:wght@300;400&display=swap|Prata|Work+Sans:400,700'
       }
     ]
   },

@@ -2,19 +2,9 @@
   .hero
     .container
         h1.title ++ Under Construction ++
-        .links
-          a(
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          ) Dokumentation
-          a(
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          ) GitHub
+
+        figure.image.is-128x128
+          img.is-rounded(src="~/static/sleun.png")
 </template>
 
 <script>
