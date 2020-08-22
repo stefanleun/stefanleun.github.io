@@ -13,9 +13,14 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato:wght@300;400&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato:wght@300;400&family=Crimson+Pro:wght@300;400;500;600;700&display=swap',
       }
-    ]
+    ],
+    script: [
+      {
+        src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons.js'
+      }
+    ],
   },
   css: [
     '~/assets/sass/main.sass',

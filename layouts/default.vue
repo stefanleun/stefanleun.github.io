@@ -6,7 +6,7 @@
         .column.is-one-quarter.is-hidden-touch
           Sidebar
         .column.has-background-light
-          .main
+          .main.px-5.py-5
             Nuxt
 </template>
 
@@ -18,6 +18,5 @@
 
 .main
     height: 100%;
-    padding: 50px;
 
 </style>

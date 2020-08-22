@@ -1,14 +1,17 @@
 <template lang="pug">
-  aside.menu#nav
+  aside#nav.menu.px-6.py-6
     Logo.sidebar-logo
-    NavLinks
+    NavLinks.sidebar-logo
+    ContactLinks
 </template>
 
 <style scoped lang="sass">
+// 436.04ms
+
 .sidebar-logo
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+
 #nav
     border: 0px solid black;
-    padding: 20px;
     margin: 0px;
 </style>
