@@ -1,9 +1,9 @@
 <template lang="pug">
   div.logo
-    div.name
+    div
       h1.title.is-2.stefan stefan
       h1.title.is-1.leun leun
-    div.subtitle
+    div
       h5.subtitle.mysubtitle DATA SCIENTIST // CONSULTANT
 </template>
 
@@ -28,7 +28,7 @@
     font-weight: 600;
     color: $primary;
 
-.subtitle
+.mysubtitle
     font-size: 0.93rem;
 
 </style>
