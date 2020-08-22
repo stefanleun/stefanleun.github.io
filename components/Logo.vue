@@ -1,9 +1,9 @@
 <template lang="pug">
   div.logo
     h1.title.is-2.stefan stefan
-    h1.title.is-1.leun leun
+    h1.title.is-2.leun leun
     br
-    h5.subtitle.mysubtitle DATA SCIENTIST | CONSULTANT
+    h5.subtitle.mysubtitle.is-7 DATA SCIENTIST | CONSULTANT
 </template>
 
 <style lang="sass">
@@ -12,7 +12,7 @@
 
 .stefan
     display: inline;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-weight: $weight-light;
     color: $grey;
 
@@ -23,7 +23,7 @@
     color: $primary;
 
 .mysubtitle
-    font-size: 0.85rem;
+   // font-size: 0.8rem;
 
 </style>
 
