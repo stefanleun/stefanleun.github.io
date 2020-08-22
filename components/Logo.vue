@@ -12,7 +12,7 @@
 
 .stefan
     display: inline;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: $weight-light;
     color: $grey;
 
