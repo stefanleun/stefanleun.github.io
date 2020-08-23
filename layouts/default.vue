@@ -5,8 +5,8 @@
       .columns.is-gapless.fullheight
         .column.is-one-quarter.is-hidden-touch
           Sidebar
-        .column.has-background-light
-          .main.px-5.py-5
+        .column
+          .main.px-5.py-5.has-background-light
             Nuxt
 </template>
 
@@ -17,6 +17,6 @@
     height: 100vh;
 
 .main
-    height: 100%;
+    min-height: 100%;
 
 </style>

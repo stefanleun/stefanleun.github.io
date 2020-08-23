@@ -1,47 +1,19 @@
 <template lang="pug">
   div
     h1.title Portfolio
-    h2.subtitle Coming soon...
 
-    .box.primary-box
-      article.media
-        .media-content
-          .content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+    ul 
+      li Datenaufbereitung und Visualisierung (PowerBI, Python Stack, …)
+      li Full-Stack Webentwicklung
+      li Algorithmenentwicklung
+      li Zeitreihenanalyse
+      li (Stochastische) Modellierung
+      li Agiles Projektmanagement
+      li Machine Learning
+      li Digitalisierungs/Transformationberatung im Tax & Law-Umfeld
 
-    .box.secondary-box
-      article.media
-        .media-content
-          .content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-
-    .box.tertiary-box
-      article.media
-        .media-content
-          .content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-
-    .box.quaternary-box
-      article.media
-        .media-content
-          .content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-</template>
+ </template>
 
 <style lang="sass">
-@import '~/assets/sass/variables.sass'
-
-.primary-box
-    background-color: $primary;
-    color: white;
-
-.secondary-box
-    background-color: $secondary;
-
-.tertiary-box
-    background-color: $tertiary;
-
-.quaternary-box
-    background-color: $quaternary;
 
 </style>
