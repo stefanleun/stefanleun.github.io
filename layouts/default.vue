@@ -6,7 +6,7 @@
         .column.is-one-quarter.is-hidden-touch
           Sidebar
         .column
-          .main.px-5.py-5.has-background-light
+          .main.px-6.py-6.has-background-primary
             Nuxt
 </template>
 
@@ -18,5 +18,6 @@
 
 .main
     min-height: 100%;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('~assets/background.png');
 
 </style>
