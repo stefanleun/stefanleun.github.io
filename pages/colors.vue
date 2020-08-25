@@ -27,6 +27,14 @@
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
 </template>
 
+<script>
+export default {
+  mounted () {
+    this.$store.commit('background/false')
+  }
+}
+</script>
+
 <style lang="sass">
 @import '~/assets/sass/variables.sass'
 

@@ -1,5 +1,13 @@
 <template lang="pug">
-  div
+  div 
     h1.title About
-    h2.subtitle Coming soon...
+    h3.subtitle Coming soon...
 </template>
+
+<script>
+export default {
+  mounted () {
+    this.$store.commit('background/false')
+  }
+}
+</script>

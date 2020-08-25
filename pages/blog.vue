@@ -13,6 +13,9 @@ export default {
     return {
       page
     }
+  },
+  mounted () {
+    this.$store.commit('background/false')
   }
 }
 </script>

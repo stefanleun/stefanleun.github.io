@@ -12,8 +12,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted () {
+    this.$store.commit('background/true')
+  }
+}
 </script>
+
 
 <style lang="sass">
 .sleun
@@ -21,13 +26,12 @@ export default {}
     padding-bottom: 20px;
 
 .description
-    width: 600px;
+    max-width: 600px;
 
 //Ich helfe Produktteams ihre Effizienz und Time to Market zu verbessern.
 // Herzlich willkommen
 // Als freiberufliche Beraterin erarbeite ich Lösungen in Bereichen Data Science, Machine Learning und Computer Vision.
 // In the following, you will find some background information and summaries of my projects.
 // I am a Stuttgart based management consultant at a leading consulting practice for financial services providing solutions for data analytics, AI modelling and the assessment of risks and regulatory requirements.
-
 
 </style>

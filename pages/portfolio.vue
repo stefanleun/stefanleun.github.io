@@ -14,6 +14,14 @@
 
  </template>
 
+<script>
+export default {
+  mounted () {
+    this.$store.commit('background/false')
+  }
+}
+</script>
+
 <style lang="sass">
 
 </style>
