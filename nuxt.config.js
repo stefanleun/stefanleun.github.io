@@ -18,7 +18,12 @@ export default {
     ],
     script: [
       {
-        src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons.js'
+        src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js',
+        type: 'module'
+      },
+      {
+        src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js',
+        nomodule: ''
       }
     ],
   },

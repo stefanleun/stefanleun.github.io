@@ -8,7 +8,7 @@
         .column
           .main.px-6.py-6.has-background-light(
             v-bind:class="{ 'has-background-image' : showbg }"
-            )
+          )
             Nuxt
 </template>
 
