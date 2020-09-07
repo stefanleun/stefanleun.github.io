@@ -1,7 +1,13 @@
 <template lang="pug">
   div 
-    h1.title About
-    h3.title.is-3 Kurzbeschreibung
+    h3.title About
+    h5.title.is-5 Kurzbeschreibung
+
+    .columns 
+      .column.is-one-third 
+        figure.image.is-inline-block.sleun
+          img.is-rounded(src="~/static/sleun.png")
+      .column Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
 
     p Text Lorem Ipsum Tralala
 
@@ -10,7 +16,7 @@
     p Standort: Stuttgart
     p Kontakt: Kontakt-Link
 
-    h3.title.is-3 Skills 
+    h5.title.is-5 Skills 
 
     .columns.is-multiline
       Skills(
@@ -20,13 +26,13 @@
         :key="title"
       )
       .column Legende - TODO
-    h3.title.is-3 Werdegang
+    h5.title.is-5 Werdegang
 
-    h4.title.is-4 Education
-    h4.title.is-4 Experience
-    h3.title.is-3 Weiterbildung / Online Courses
+    h5.title.is-5 Education
+    h5.title.is-5 Experience
+    h5.title.is-5 Weiterbildung / Online Courses
 
-    h3.subtitle Publikationen
+    h5.title.is-5 Publikationen
 
 </template>
 

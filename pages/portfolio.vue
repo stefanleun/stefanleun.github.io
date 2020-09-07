@@ -20,6 +20,11 @@ export default {
     return {
       items: [
         { 
+          title: "Datenanalyse",
+          descr: "2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+          icon: "pulse"
+        },
+        { 
           title: "Datenvisualisierung",
           descr: "(PowerBI, Python Stack, + Aufbereitung …) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
           icon: "bar-chart"
@@ -28,11 +33,6 @@ export default {
           title: "Algorithmenentwicklung",
           descr: "7Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
           icon: "shuffle"
-        },
-        { 
-          title: "Zeitreihenanalyse",
-          descr: "2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
-          icon: "pulse"
         },
         { 
           title: "Webentwicklung",
@@ -49,16 +49,16 @@ export default {
           descr: "9Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
           icon: "people"
         },
-        { 
-          title: "Modellentwicklung",
-          descr: "(Stochastische) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
-          icon: "analytics"
-        },
-        { 
-          title: "Digitalisierungsberatung im Tax & Law-Umfeld",
-          descr: "0Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
-          icon: "trail-sign"
-        },
+        // { 
+        //   title: "Modellentwicklung",
+        //   descr: "(Stochastische) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+        //   icon: "analytics"
+        // },
+        // { 
+        //   title: "Digitalisierungsberatung im Tax & Law-Umfeld",
+        //   descr: "0Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+        //   icon: "trail-sign"
+        // },
       ]
     }
   }

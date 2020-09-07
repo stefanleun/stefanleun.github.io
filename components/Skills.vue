@@ -1,16 +1,18 @@
 <template lang="pug">
   .column.is-one-third
-    h5.title.is-5.skills-title {{ title }}
     table.table.is-narrow.has-background-light
-      tr(
-        v-for="(rating, skill) in skills"
-        :key="skill"
-      )
-        td {{ skill }}
-        td(v-if="typeof(rating)=='number'")
-          ion-icon(size="small", name="ellipse", v-for="n in rating", :key="rating")
-          ion-icon(size="small", name="ellipse-outline", v-for="n in 3-rating", :key="rating")
-        td(v-else) {{ rating }}
+      thead
+        th(colspan="2") {{ title }}
+      tbody 
+        tr(
+          v-for="(rating, skill) in skills"
+          :key="skill"
+        )
+          td {{ skill }}
+          td(v-if="typeof(rating)=='number'")
+            ion-icon(size="small", name="ellipse", v-for="n in rating", :key="rating")
+            ion-icon(size="small", name="ellipse-outline", v-for="n in 3-rating", :key="rating")
+          td(v-else) {{ rating }}
 </template>
 
 <script>

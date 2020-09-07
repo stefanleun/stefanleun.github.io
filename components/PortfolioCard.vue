@@ -4,7 +4,7 @@
       .card-content
         span.icon.is-large
           ion-icon(size="large", :name="icon")
-        p.title.is-5 {{ title }}
+        h5.title.is-5 {{ title }}
         p {{ description }}
  </template>
 
