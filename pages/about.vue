@@ -7,14 +7,19 @@
       .column.is-one-third 
         figure.image.is-inline-block.sleun
           img.is-rounded(src="~/static/sleun.png")
-      .column Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+      .column {{ description }}
 
-    p Text Lorem Ipsum Tralala
-
-    p Data Scientist und Unternehmensberater
-    p Akademischer Grad: M.Sc. Physik
-    p Standort: Stuttgart
-    p Kontakt: Kontakt-Link
+    ul.details
+      li Data Scientist und Unternehmensberater
+      li 
+        span.has-text-weight-bold Akademischer Grad: 
+        | M.Sc. Physik
+      li 
+        span.has-text-weight-bold Standort: 
+        | Stuttgart
+      li 
+        span.has-text-weight-bold Kontakt: 
+        | Kontakt-Link
 
     h5.title.is-5 Skills 
 
@@ -37,40 +42,28 @@
 </template>
 
 <script>
+import data from '~/assets/data.json'
+
 export default {
   mounted () {
     this.$store.commit('background/false')
   },
   data: function () {
     return {
-      skillset: {
-        Sprachen: {
-          Deutsch: "Muttersprache",
-          Englisch: "Verhandlungssicher",
-          Französisch: "Grundkenntnisse"
-        },
-        Programmiersprachen: {
-          Python: 3,
-          "C++": 2,
-          Java: 1,
-        },
-        Bibliotheken: {
-          Django: 3,
-          Pandas: 3,
-          Numpy: 3,
-          SciPy: 3,
-          Matplotlib: 3,
-          "scikit-learn": 2
-        },
-        Tools: {
-          git: 3,
-          Jupyter: 3,
-          docker: 2,
-          Unix: 3,
-          SQL: 3
-        }
-      }
+      skillset: data["Skillset"],
+      description: data["Kurzbeschreibung"]
     }
   }
 }
 </script>
+
+<style lang="sass">
+.details
+    display: inline-block;
+    width: 100%
+
+    li 
+        float: left;
+        width: 50%;
+        margin-bottom: 10px;
+</style>
