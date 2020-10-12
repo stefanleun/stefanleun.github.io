@@ -1,7 +1,7 @@
 <template lang="pug">
   nav.navbar(role="navigation", aria-label="main navigation")
     .navbar-brand
-      a.navbar-item(href="https://bulma.io")
+      a.navbar-item(href="https://stefanleun.github.io")
         Logo
       a.navbar-burger.burger(
         role="button"

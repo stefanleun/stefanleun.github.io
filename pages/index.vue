@@ -1,13 +1,13 @@
 <template lang="pug">
   .hero
     .hero-body 
-      .container.has-text-centered.description
+      .container.has-text-centered
         h1.title.has-text-danger ++ Under Construction ++
     
         figure.image.is-inline-block.sleun
           img.is-rounded(src="~/static/sleun.png")
         h1.title.has-text-light Herzlich Willkommen!
-        p.is-size-5.description.has-text-light Als Data Scientist, Web-Entwickler und Unternehmensberater unterstütze ich meine Kunden bei der Konzeptionierung und Implementierung datengetriebener Lösungen.
+        p.is-size-5.has-text-light.description Als Data Scientist, Web-Entwickler und Unternehmensberater unterstütze ich meine Kunden bei der Konzeptionierung und Implementierung datengetriebener Lösungen.
   
 </template>
 
@@ -21,12 +21,17 @@ export default {
 
 
 <style lang="sass">
+@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "~/node_modules/bulma/sass/utilities/derived-variables";
+@import "~/node_modules/bulma/sass/utilities/mixins.sass";
 .sleun
     width: 200px;
     padding-bottom: 20px;
 
 .description
-    max-width: 600px;
+    +desktop
+        padding-left: 150px;
+        padding-right: 150px;
 
 //Ich helfe Produktteams ihre Effizienz und Time to Market zu verbessern.
 // Herzlich willkommen
