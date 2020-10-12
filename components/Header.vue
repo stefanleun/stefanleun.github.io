@@ -3,6 +3,8 @@
     .navbar-brand
       a.navbar-item(href="https://stefanleun.github.io")
         Logo
+      .navbar-item
+        ContactLinks
       a.navbar-burger.burger(
         role="button"
         aria-label="menu"
