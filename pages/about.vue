@@ -23,21 +23,27 @@
 
     h5.title.is-5 Skills 
 
+    .card
+      .card-content
+        .columns.is-multiline
+          Skills(
+            v-for="(skills, title) in skillset"
+            :skills="skills"
+            :title="title"
+            :key="title"
+          )
+          .column Legende - TODO
+
     .columns.is-multiline
-      Skills(
-        v-for="(skills, title) in skillset"
-        :skills="skills"
-        :title="title"
-        :key="title"
-      )
-      .column Legende - TODO
-    h5.title.is-5 Werdegang
+      .column.is-half
+        h5.title.is-5 Berufserfahrung
+        Experience
+      .column.is-half
+        h5.title.is-5 Studium
+        Experience
 
-    h5.title.is-5 Education
-    h5.title.is-5 Experience
-    h5.title.is-5 Weiterbildung / Online Courses
-
-    h5.title.is-5 Publikationen
+    //- h5.title.is-5 Weiterbildung / Online Courses
+    //- h5.title.is-5 Publikationen
 
 </template>
 

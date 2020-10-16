@@ -34,6 +34,7 @@
 
 .mysubtitle
     font-size: 0.93rem;
+    font-family: $family-serif;
 
 </style>
 

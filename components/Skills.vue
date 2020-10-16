@@ -1,6 +1,6 @@
 <template lang="pug">
   .column.is-one-third
-    table.table.is-narrow.has-background-light
+    table.table.is-narrow
       thead
         th(colspan="2") {{ title }}
       tbody 
