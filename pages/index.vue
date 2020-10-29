@@ -2,8 +2,6 @@
   .hero
     .hero-body 
       .container.has-text-centered
-        h1.title.has-text-danger ++ Under Construction ++
-    
         figure.image.is-inline-block.sleun
           img.is-rounded(src="~/static/sleun.png")
         h1.title.has-text-light Herzlich Willkommen!

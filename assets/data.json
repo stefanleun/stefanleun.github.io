@@ -26,6 +26,47 @@
       "SQL": 3
     }
   },
-  "Test": 23,
-  "Kurzbeschreibung": "Consectetur odit ipsa ducimus veritatis in Quisquam labore nesciunt modi unde suscipit molestiae. Facere veniam illo magnam amet saepe possimus quo Incidunt obcaecati accusantium reiciendis provident quae! Modi impedit itaque veritatis voluptate excepturi fugit reiciendis Ea ducimus quasi excepturi quisquam perspiciatis in sequi Eveniet blanditiis ipsa laborum iste dolorum? Eius ipsum voluptatibus quia officia dolor. Consequatur minima repudiandae nam libero soluta voluptate Debitis ex aliquid maxime mollitia ipsam modi maxime"
+  "Kurzbeschreibung": "Consectetur odit ipsa ducimus veritatis in Quisquam labore nesciunt modi unde suscipit molestiae. Facere veniam illo magnam amet saepe possimus quo Incidunt obcaecati accusantium reiciendis provident quae! Modi impedit itaque veritatis voluptate excepturi fugit reiciendis Ea ducimus quasi excepturi quisquam perspiciatis in sequi Eveniet blanditiis ipsa laborum iste dolorum? Eius ipsum voluptatibus quia officia dolor. Consequatur minima repudiandae nam libero soluta voluptate Debitis ex aliquid maxime mollitia ipsam modi maxime",
+  "Portfolio": [
+    { 
+      "title": "Datenanalyse",
+      "descr": "2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "pulse"
+    },
+    { 
+      "title": "Datenvisualisierung",
+      "descr": "(PowerBI, Python Stack, + Aufbereitung …) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "bar-chart"
+    },
+    { 
+      "title": "Algorithmenentwicklung",
+      "descr": "7Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "shuffle"
+    },
+    { 
+      "title": "Webentwicklung",
+      "descr": "Full-Stack, Datenbankmodellierung - 4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "code-slash"
+    },
+    { 
+      "title": "Machine Learning",
+      "descr": "1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "cog"
+    },
+    { 
+      "title": "Agiles Projektmanagement",
+      "descr": "9Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "people"
+    },
+    { 
+      "title": "Modellentwicklung",
+      "descr": "(Stochastische) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "analytics"
+    },
+    { 
+      "title": "Digitalisierungsberatung im Tax & Law-Umfeld",
+      "descr": "0Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "icon": "trail-sign"
+    }
+  ]
 }

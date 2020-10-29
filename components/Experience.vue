@@ -24,3 +24,11 @@
         p.heading March 2017
         p Timeline content - Can include any HTML element
 </template>
+
+<style scoped lang="sass">
+@import '~/assets/sass/variables.sass'
+
+ion-icon
+    color: $secondary;
+
+</style>

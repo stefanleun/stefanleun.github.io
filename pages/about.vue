@@ -1,38 +1,35 @@
 <template lang="pug">
   div 
-    h3.title About
-    h5.title.is-5 Kurzbeschreibung
+    h3.title.is-3 About
 
-    .columns 
-      .column.is-one-third 
-        figure.image.is-inline-block.sleun
+    .columns.is-variable.is-8.is-vcentered
+      .column.is-one-third
+        figure.image.sleun-about
           img.is-rounded(src="~/static/sleun.png")
       .column {{ description }}
 
-    ul.details
-      li Data Scientist und Unternehmensberater
-      li 
-        span.has-text-weight-bold Akademischer Grad: 
-        | M.Sc. Physik
-      li 
-        span.has-text-weight-bold Standort: 
-        | Stuttgart
-      li 
-        span.has-text-weight-bold Kontakt: 
-        | Kontakt-Link
+        ul.details
+          li
+            span.title.is-5 Beruf: 
+            | Data Scientist & Unternehmensberater
+          li
+            span.title.is-5 Akademischer Grad: 
+            | M.Sc. Physik
+          li
+            span.title.is-5 Standort: 
+            | Stuttgart
+          li
+            span.title.is-5 Kontakt: 
+            | Kontakt-Link
 
-    h5.title.is-5 Skills 
-
-    .card
-      .card-content
-        .columns.is-multiline
-          Skills(
-            v-for="(skills, title) in skillset"
-            :skills="skills"
-            :title="title"
-            :key="title"
-          )
-          .column Legende - TODO
+    .columns.is-multiline
+      Skills(
+        v-for="(skills, title) in skillset"
+        :skills="skills"
+        :title="title"
+        :key="title"
+      )
+      .column Legende - TODO
 
     .columns.is-multiline
       .column.is-half
@@ -64,9 +61,19 @@ export default {
 </script>
 
 <style lang="sass">
+.sleun-about
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    // img
+    //     border-radius: 6px;
+
 .details
     display: inline-block;
     width: 100%
+    margin-top: 30px;
 
     li 
         float: left;

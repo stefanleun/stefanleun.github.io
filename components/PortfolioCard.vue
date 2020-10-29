@@ -1,11 +1,10 @@
 <template lang="pug">
-  .column.is-one-third
-    .card
-      .card-content
-        span.icon.is-large
-          ion-icon(size="large", :name="icon")
-        h5.title.is-5 {{ title }}
-        p {{ description }}
+  .tile.is-4.is-parent
+    .tile.is-child.box
+      span.icon.is-large
+        ion-icon(size="large", :name="icon")
+      h5.title.is-5 {{ title }}
+      p {{ description }}
  </template>
 
 <script>
@@ -22,6 +21,6 @@ export default {
 @import '~/assets/sass/variables.sass'
 
 ion-icon
-    color: $quaternary;
+    color: $secondary;
 
 </style>

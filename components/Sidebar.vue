@@ -1,5 +1,6 @@
 <template lang="pug">
   aside#nav.menu.px-6.py-6
+    h5.title.is-5.has-text-danger ++ Under Construction ++
     Logo.sidebar-logo
     NavLinks.sidebar-logo
     ContactLinks
