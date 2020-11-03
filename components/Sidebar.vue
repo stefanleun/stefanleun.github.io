@@ -1,9 +1,11 @@
 <template lang="pug">
-  aside#nav.menu.px-6.py-6
-    h5.title.is-5.has-text-danger ++ Under Construction ++
+  aside#nav.menu.px-6
     Logo.sidebar-logo
     NavLinks.sidebar-logo
     ContactLinks
+    br
+    br 
+    h5.title.is-5.has-text-danger ++ Under Construction ++
 </template>
 
 <style scoped lang="sass">
@@ -14,6 +16,7 @@
 
 #nav
     border: 0px solid black;
-    margin: 0px;
+    margin-top: 10vh;
     position: fixed;
+
 </style>

@@ -1,35 +1,30 @@
 <template lang="pug">
   div 
-    h3.title.is-3 About
+    h3.title.is-3 Über
 
     .columns.is-variable.is-8.is-vcentered
       .column.is-one-third
         figure.image.sleun-about
           img.is-rounded(src="~/static/sleun.png")
       .column {{ description }}
-
         ul.details
           li
-            span.title.is-5 Beruf: 
-            | Data Scientist & Unternehmensberater
-          li
             span.title.is-5 Akademischer Grad: 
-            | M.Sc. Physik
+            | {{ degree }}
           li
             span.title.is-5 Standort: 
-            | Stuttgart
+            | {{ location }}
           li
-            span.title.is-5 Kontakt: 
-            | Kontakt-Link
+            a.button.is-info.is-outlined(href="/contact") Kontakt
 
-    .columns.is-multiline
+    .columns.is-multiline.py-5
       Skills(
         v-for="(skills, title) in skillset"
         :skills="skills"
         :title="title"
         :key="title"
       )
-      .column Legende - TODO
+      //- .column Legende - TODO
 
     .columns.is-multiline
       .column.is-half
@@ -54,7 +49,9 @@ export default {
   data: function () {
     return {
       skillset: data["Skillset"],
-      description: data["Kurzbeschreibung"]
+      description: data["Kurzbeschreibung"],
+      location: data["Standort"],
+      degree: data["Grad"]
     }
   }
 }
@@ -67,16 +64,14 @@ export default {
     margin-left: auto;
     margin-right: auto;
 
-    // img
-    //     border-radius: 6px;
-
 .details
     display: inline-block;
     width: 100%
-    margin-top: 30px;
+    margin-top: 15px;
 
     li 
         float: left;
         width: 50%;
         margin-bottom: 10px;
+
 </style>

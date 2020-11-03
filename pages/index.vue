@@ -5,14 +5,20 @@
         figure.image.is-inline-block.sleun
           img.is-rounded(src="~/static/sleun.png")
         h1.title.has-text-light Herzlich Willkommen!
-        p.is-size-5.has-text-light.description Als Data Scientist, Web-Entwickler und Unternehmensberater unterstütze ich meine Kunden bei der Konzeptionierung und Implementierung datengetriebener Lösungen.
-  
+        p.is-size-5.has-text-light.description {{ description }}
 </template>
 
 <script>
+import data from '~/assets/data.json'
+
 export default {
   mounted () {
     this.$store.commit('background/true')
+  },
+  data: function () {
+    return {
+      description: data["Beschreibung"]
+    }
   }
 }
 </script>
