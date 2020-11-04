@@ -71,5 +71,39 @@
       "descr": "0Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
       "icon": "trail-sign"
     }
+  ],
+  "Experience": [
+    {
+      "title": "Data Scientist bei EY",
+      "descr": "1Timeline content - Can include any HTML element",
+      "time": "seit Januar 2017",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Experience 2",
+      "descr": "2Timeline content - Can include any HTML element",
+      "time": "2015-2017",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Previous Experience",
+      "descr": "3Timeline content - Can include any HTML element",
+      "time": "2013-2015",
+      "icon": "briefcase"
+    }
+  ],
+  "Education": [
+    {
+      "title": "Master",
+      "descr": "4Timeline content - Can include any HTML element",
+      "time": "seit Januar 2017",
+      "icon": "library"
+    },
+    {
+      "title": "bachelor",
+      "descr": "5Timeline content - Can include any HTML element",
+      "time": "2015-2017",
+      "icon": "library"
+    }
   ]
 }

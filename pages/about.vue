@@ -29,10 +29,14 @@
     .columns.is-multiline
       .column.is-half
         h5.title.is-5 Berufserfahrung
-        Experience
+        Timeline(
+          :items="experience"
+        )
       .column.is-half
         h5.title.is-5 Studium
-        Experience
+        Timeline(
+          :items="education"
+        )
 
     //- h5.title.is-5 Weiterbildung / Online Courses
     //- h5.title.is-5 Publikationen
@@ -51,7 +55,9 @@ export default {
       skillset: data["Skillset"],
       description: data["Kurzbeschreibung"],
       location: data["Standort"],
-      degree: data["Grad"]
+      degree: data["Grad"],
+      education: data["Education"],
+      experience: data["Experience"]
     }
   }
 }
