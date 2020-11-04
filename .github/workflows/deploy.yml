@@ -1,0 +1,33 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: '${{ matrix.node-version }}'
+    - name: Install
+      run: npm install
+    - name: Build
+      run: |
+        npm run generate
+        # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
+        # echo stefanleun.com > dist/CNAME
+    - name: GitHub Pages Deploy
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        build_dir: dist
