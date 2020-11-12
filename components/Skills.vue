@@ -1,6 +1,6 @@
 <template lang="pug">
   .column.is-one-quarter
-    table.table.is-narrow
+    table.table.is-narrow.is-fullwidth
       thead
         th.has-text-left(colspan="2") 
           h5.title.is-5 {{ title }}

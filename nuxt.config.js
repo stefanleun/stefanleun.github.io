@@ -34,11 +34,7 @@ export default {
     '@nuxtjs/bulma',
     '@nuxt/content'
   ],
-  buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-176130912-1'
-    }]
-  ],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }], // Google Analytics
   build: {
     postcss: {
       preset: {
