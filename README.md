@@ -1,20 +1,11 @@
 # stefanleun.github.io
 
-## Build Setup
+My personal website
 
-```bash
-# install dependencies
-$ npm install
+## Build with
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+* [Nuxt.js docs](https://nuxtjs.org)
+* [Bulma](https://bulma.io/)
+* [PugJS](https://pugjs.org/api/getting-started.html)
+* [Sass](https://sass-lang.com/)
+* [GitHub ACtions](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions)

@@ -1,5 +1,6 @@
 {
   "name": "stefanleun.github.io",
+  "description": "Personal website of Stefan Leun",
   "version": "0.1.0",
   "private": true,
   "scripts": {
