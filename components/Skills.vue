@@ -1,5 +1,5 @@
 <template lang="pug">
-  .column.is-one-quarter
+  .column.is-one-third
     table.table.is-narrow.is-fullwidth
       thead
         th.has-text-left(colspan="2") 

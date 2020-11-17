@@ -5,7 +5,7 @@
       tbody
         tr
           th.title.is-5 Name
-          td.p-name Stefan Leun
+          td Stefan Leun
         tr
           th.title.is-5 Beruf
           td Unternehmensberater
@@ -17,6 +17,12 @@
             | Machine Learning
             br
             | Web Development
+        tr
+          th.title.is-5 Standort
+          td Stuttgart
+        tr
+          th.title.is-5 Akademischer Grad
+          td M.Sc. Physik
         tr
           th.title.is-5 Web
           td

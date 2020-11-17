@@ -7,8 +7,10 @@
         span.icon
           ion-icon(:name="item.icon")
       .timeline-content
-        p.has-text-weight-bold {{ item.title }}
-        p {{ item.time }}
+        p.title.is-5.timeline-title {{ item.title }}
+        p
+          | {{item.subtitle }}, 
+          | {{ item.time }}
         p {{ item.descr }}
 </template>
 
@@ -25,5 +27,8 @@ export default {
 
 ion-icon
     color: $secondary;
+
+.timeline-title
+    margin-bottom: 0px;
 
 </style>

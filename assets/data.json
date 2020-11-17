@@ -1,33 +1,6 @@
 {
-  "Skillset": {
-    "Sprachen": {
-      "Deutsch": "Muttersprache",
-      "Englisch": "Verhandlungssicher",
-      "Französisch": "Grundkenntnisse"
-    },
-    "Programmiersprachen": {
-      "Python": 3,
-      "C++": 2,
-      "Java": 1
-    },
-    "Bibliotheken": {
-      "Django": 3,
-      "Pandas": 3,
-      "Numpy": 3,
-      "SciPy": 3,
-      "Matplotlib": 3,
-      "scikit-learn": 2
-    },
-    "Tools": {
-      "git": 3,
-      "Jupyter": 3,
-      "docker": 2,
-      "Unix": 3,
-      "SQL": 3
-    }
-  },
-  "Kurzbeschreibung": "Consectetur odit ipsa ducimus veritatis in Quisquam labore nesciunt modi unde suscipit molestiae. Facere veniam illo magnam amet saepe possimus quo Incidunt obcaecati accusantium reiciendis provident quae! Modi impedit itaque veritatis voluptate excepturi fugit reiciendis Ea ducimus quasi excepturi quisquam perspiciatis in sequi Eveniet blanditiis ipsa laborum iste dolorum? Eius ipsum voluptatibus quia officia dolor. Consequatur minima repudiandae nam libero soluta voluptate Debitis ex aliquid maxime mollitia ipsam modi maxime",
-  "Beschreibung": "Als Data Scientist, Web-Entwickler und Unternehmensberater unterstütze ich meine Kunden bei der Konzeptionierung und Implementierung datengetriebener Lösungen.",
+  "Beschreibung": "Consectetur odit ipsa ducimus veritatis in Quisquam labore nesciunt modi unde suscipit molestiae. Facere veniam illo magnam amet saepe possimus quo Incidunt obcaecati accusantium reiciendis provident quae! Modi impedit itaque veritatis voluptate excepturi fugit reiciendis Ea ducimus quasi excepturi quisquam perspiciatis in sequi Eveniet blanditiis ipsa laborum iste dolorum? Eius ipsum voluptatibus quia officia dolor. Consequatur minima repudiandae nam libero soluta voluptate Debitis ex aliquid maxime mollitia ipsam modi maxime",
+  "Kurzbeschreibung": "Als Data Scientist, Web-Entwickler und Unternehmensberater unterstütze ich meine Kunden bei der Konzeptionierung und Implementierung datengetriebener Lösungen.",
   "Grad": "M. Sc. Physik",
   "Standort": "Stuttgart",
   "Portfolio": [
@@ -72,37 +45,96 @@
       "icon": "trail-sign"
     }
   ],
+  "Skillset": {
+    "Programmiersprachen": {
+      "Python": 3,
+      "MATLAB/Octave": 3,
+      "SQL": 3,
+      "C++": 2,
+      "Java": 2
+    },
+    "Bibliotheken": {
+      "Pandas": 3,
+      "Numpy": 3,
+      "SciPy": 3,
+      "Matplotlib": 3,
+      "scikit-learn": 2
+    },
+    "Web-Entwicklung": {
+      "Django": 3,
+      "Nuxt.js/Vue.js": 2,
+      "HTML": 2,
+      "LESS/CSS": 2,
+      "JavaScript": 2
+    },
+    "Tools": {
+      "git": 3,
+      "Jupyter": 3,
+      "Unix": 3,
+      "docker": 2,
+      "MS PowerBI": 2
+    },
+    "Sprachen": {
+      "Deutsch": "Muttersprache",
+      "Englisch": "Verhandlungssicher",
+      "Französisch": "Grundkenntnisse"
+    },
+    "Legende": {
+      "Langjährige Projekterfahrung": 3,
+      "Projekterfahrung": 2,
+      "Grundkenntnisse": 1
+    }
+  },
   "Experience": [
     {
-      "title": "Data Scientist bei EY",
-      "descr": "1Timeline content - Can include any HTML element",
-      "time": "seit Januar 2017",
+      "title": "EY, Stuttgart",
+      "subtitle": "Senior Consultant / Data Scientist",
+      "time": "seit 01/2017",
+      "descr": "Tax Technology and Transformation | Data Analytics and Emerging Technologies",
       "icon": "briefcase"
     },
     {
-      "title": "Experience 2",
-      "descr": "2Timeline content - Can include any HTML element",
-      "time": "2015-2017",
+      "title": "Université de Nice - Sophia-Antipolis, Nizza, Frankreich",
+      "subtitle": "Wissenschaftliche Hilfskraft",
+      "time": "10/2015 - 12/2016",
+      "descr": "Forschung im Bereich aktiver bakterieller Bewegung",
       "icon": "briefcase"
     },
     {
-      "title": "Previous Experience",
-      "descr": "3Timeline content - Can include any HTML element",
-      "time": "2013-2015",
+      "title": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU, Dresden",
+      "subtitle": "Wissenschaftliche Hilfskraft",
+      "time": "01/2015 - 09/2015",
+      "descr": "Umsetzung einer Versuchsstandssteuerung in LabVIEW",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen",
+      "subtitle": "Freier wissenschaftliche Mitarbeiter",
+      "time": "12/2013 - 09/2014",
+      "descr": "Forschung an einem Projekt zum Thema Chaotische Dynamiken in einem Modell für Herzzellen",
+      "icon": "briefcase"
+    },
+    {
+      "title": "B. Braun Melsungen AG, Melsungen",
+      "subtitle": "Praktikant",
+      "time": "10/2013 - 03/2014",
+      "descr": "Forschung und Entwicklung innerhalb eines Projekts zur Verbesserung der Patientensicherheit an Dialysemaschinen",
       "icon": "briefcase"
     }
   ],
   "Education": [
     {
-      "title": "Master",
-      "descr": "4Timeline content - Can include any HTML element",
-      "time": "seit Januar 2017",
+      "title": "Technische Universität Dresden",
+      "subtitle": "Master of Science (M.Sc.) Physik",
+      "time": "10/2014 - 12/2016",
+      "descr": "Schwerpunkte: Theoretische Physik und Mathematische Biologie",
       "icon": "library"
     },
     {
-      "title": "bachelor",
-      "descr": "5Timeline content - Can include any HTML element",
-      "time": "2015-2017",
+      "title": "Georg-August-Universität Göttingen",
+      "subtitle": "Bachelor of Science (B.Sc.) Physik",
+      "time": "10/2010 - 09/2013",
+      "descr": "Schwerpunkte: Physik komplexer Systeme, Biophysik, Programmierung und numerische Simlation",
       "icon": "library"
     }
   ]

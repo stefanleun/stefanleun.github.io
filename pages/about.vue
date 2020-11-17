@@ -24,7 +24,6 @@
         :title="title"
         :key="title"
       )
-      //- .column Legende - TODO
 
     .columns.is-multiline
       .column.is-half
@@ -52,10 +51,10 @@ export default {
   },
   data: function () {
     return {
-      skillset: data["Skillset"],
-      description: data["Kurzbeschreibung"],
+      description: data["Beschreibung"],
       location: data["Standort"],
       degree: data["Grad"],
+      skillset: data["Skillset"],
       education: data["Education"],
       experience: data["Experience"]
     }
