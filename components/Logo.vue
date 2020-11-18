@@ -24,8 +24,6 @@
     font-weight: 400;
     color: $grey;
 
-//56
-
 .leun
     display: inline;
     font-family: $family-serif;

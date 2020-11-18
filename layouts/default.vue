@@ -35,8 +35,6 @@ export default {
 .fullheight
     min-height: 100vh;
 
-//56
-
 .sidebar-column
     box-shadow: 0px 0px 30px rgba(0,0,0,0.09);
 

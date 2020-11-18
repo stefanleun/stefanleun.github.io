@@ -31,7 +31,4 @@ export default {
 ion-icon
     color: $secondary;
 
-.skills-title
-    margin-bottom: 1.0rem;
-
 </style>

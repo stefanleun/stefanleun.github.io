@@ -9,8 +9,6 @@
 </template>
 
 <style scoped lang="sass">
-// 436.04ms
-
 .sidebar-logo
     padding-bottom: 100px;
 

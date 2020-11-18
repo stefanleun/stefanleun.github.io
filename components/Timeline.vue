@@ -9,7 +9,7 @@
       .timeline-content
         p.title.is-5.timeline-title {{ item.title }}
         p
-          | {{item.subtitle }}, 
+          | {{item.subtitle }} |   
           | {{ item.time }}
         p {{ item.descr }}
 </template>
@@ -17,7 +17,7 @@
 <script>
 export default {
   props: {
-    items: Object
+    items: Array
   }
 }
 </script>

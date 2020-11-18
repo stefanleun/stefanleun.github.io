@@ -3,7 +3,7 @@
     .hero-body 
       .container.has-text-centered
         figure.image.is-inline-block.sleun
-          img.is-rounded(src="~/static/sleun.png")
+          img.is-rounded(src="~/assets/sleun.png")
         h1.title.has-text-light Herzlich Willkommen!
         p.is-size-5.has-text-light.description {{ description }}
 </template>

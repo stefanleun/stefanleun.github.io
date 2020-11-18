@@ -5,7 +5,7 @@
     .columns.is-variable.is-8.is-vcentered
       .column.is-one-third
         figure.image.sleun-about
-          img.is-rounded(src="~/static/sleun.png")
+          img.is-rounded(src="~/assets/sleun.png")
       .column {{ description }}
         ul.details
           li
