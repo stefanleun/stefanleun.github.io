@@ -5,7 +5,7 @@
       tbody
         tr
           th.title.is-5 Name
-          td Stefan Leun
+          td Stefan Leun, geb. Otte
         tr
           th.title.is-5 Beruf
           td Unternehmensberater
@@ -16,7 +16,9 @@
             br
             | Machine Learning
             br
-            | Web Development
+            | Web-Entwicklung
+            br 
+            | Projektmanagement
         tr
           th.title.is-5 Standort
           td Stuttgart
