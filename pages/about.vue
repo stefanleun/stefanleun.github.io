@@ -6,16 +6,17 @@
       .column.is-one-third
         figure.image.sleun-about
           img.is-rounded(src="~/assets/sleun.png")
-      .column {{ description }}
-        ul.details
-          li
-            span.title.is-5 Akademischer Grad: 
-            | {{ degree }}
-          li
-            span.title.is-5 Standort: 
-            | {{ location }}
-          li
-            a.button.is-info.is-outlined(href="/contact") Kontakt
+      .column
+        | {{ description }}
+        .details-div
+          ul.details
+            li
+              span.title.is-5 Akademischer Grad: 
+              | {{ degree }}
+            li
+              span.title.is-5 Standort: 
+              | {{ location }}
+          a.button.is-info.is-outlined(href="/contact") Kontakt
 
     .columns.is-multiline.py-5
       Skills(
@@ -63,20 +64,28 @@ export default {
 </script>
 
 <style lang="sass">
+@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "~/node_modules/bulma/sass/utilities/derived-variables";
+@import "~/node_modules/bulma/sass/utilities/mixins.sass";
+
 .sleun-about
     width: 75%;
+    max-width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
-.details
-    display: inline-block;
-    width: 100%
+.details-div
     margin-top: 15px;
 
+.details
+    display: inline-block;
+    float: left;
+    width: 50%
+    +touch
+      width: 100%
+
     li 
-        float: left;
-        width: 50%;
-        margin-bottom: 10px;
+      margin-bottom: 10px;
 
 </style>
