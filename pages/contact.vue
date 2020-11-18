@@ -28,11 +28,11 @@
         tr
           th.title.is-5 Web
           td
-            a(href="https://stefanleun.github.io" rel="me") stefanleun.github.io
+            a(href="https://stefanleun.com" rel="me") stefanleun.com
         tr
           th.title.is-5 E-Mail
           td
-            a.u-email(href="mailto:stefan211.so@googlemail.com") stefan211.so@googlemail.com
+            a.u-email(href="mailto:hallo@stefanleun.com") hallo@stefanleun.com
         tr
           th.title.is-5 LinkedIn
           td

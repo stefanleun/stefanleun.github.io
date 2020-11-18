@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    a(href="mailto:stefan211.so@googlemail.com").contact-link
+    a(href="mailto:hallo@stefanleun.com").contact-link
       span.icon.contact-icon
         ion-icon(size="large", name="mail")
     a(href="https://www.linkedin.com/in/stefanleun", target="_blank", rel="noopener noreferrer").contact-link
