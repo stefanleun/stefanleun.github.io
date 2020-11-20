@@ -5,7 +5,7 @@
       .column.px-6.py-6.is-one-quarter.is-hidden-touch.sidebar-column
         Sidebar
       .column
-        .main.px-6.py-6(
+        .main(
           v-bind:class="{ 'has-background-image' : showbg }"
         )
           Nuxt
@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style lang="sass">
+@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "~/node_modules/bulma/sass/utilities/derived-variables";
+@import "~/node_modules/bulma/sass/utilities/mixins.sass";
+
 .fullheight
     min-height: 100vh;
 
@@ -40,6 +44,9 @@ export default {
 
 .main
     min-height: 100%;
+    padding: 3rem 3rem;
+    +touch
+        padding: 1.0rem 1.0rem;
 
 .has-background-image
     background: url('~assets/image.png'), linear-gradient(rgba(39,101,145,1) 0%, rgba(54,58,70,1) 100%);
