@@ -5,7 +5,7 @@
       tbody
         tr
           th.title.is-5 Name
-          td Stefan Leun, geb. Otte
+          td Stefan Leun
         tr
           th.title.is-5 Beruf
           td Unternehmensberater
@@ -32,7 +32,7 @@
         tr
           th.title.is-5 E-Mail
           td
-            a.u-email(href="mailto:hallo@stefanleun.com") hallo@stefanleun.com
+            a(href="mailto:hallo@stefanleun.com") hallo@stefanleun.com
         tr
           th.title.is-5 LinkedIn
           td
