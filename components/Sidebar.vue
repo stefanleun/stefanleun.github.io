@@ -3,9 +3,6 @@
     Logo.sidebar-logo
     NavLinks.sidebar-logo
     ContactLinks
-    br
-    br 
-    h5.title.is-5.has-text-danger ++ UNDER CONSTRUCTION ++
 </template>
 
 <style scoped lang="sass">
