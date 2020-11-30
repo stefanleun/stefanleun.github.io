@@ -99,7 +99,7 @@
     },
     {
       "title": "Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen",
-      "subtitle": "Freier wissenschaftliche Mitarbeiter",
+      "subtitle": "Freier wissenschaftlicher Mitarbeiter",
       "time": "12/2013 - 09/2014",
       "descr": "Forschung an einem Projekt zum Thema Chaotische Dynamiken in einem Modell für Herzzellen",
       "icon": "briefcase"
@@ -115,16 +115,16 @@
   "Education": [
     {
       "title": "Technische Universität Dresden",
-      "subtitle": "Master of Science (M.Sc.) Physik",
+      "subtitle": "Master of Science (M. Sc.) Physik",
       "time": "10/2014 - 12/2016",
-      "descr": "Schwerpunkte: Theoretische Physik und Mathematische Biologie",
+      "descr": "Schwerpunkte: Theoretische Physik und Mathematische Biologie | &empty; 1,1",
       "icon": "library"
     },
     {
       "title": "Georg-August-Universität Göttingen",
-      "subtitle": "Bachelor of Science (B.Sc.) Physik",
+      "subtitle": "Bachelor of Science (B. Sc.) Physik",
       "time": "10/2010 - 09/2013",
-      "descr": "Schwerpunkte: Physik komplexer Systeme, Biophysik, Programmierung und numerische Simlation",
+      "descr": "Schwerpunkte: Physik komplexer Systeme, Biophysik, Programmierung und numerische Simlation | &empty; 1,4",
       "icon": "library"
     }
   ]

@@ -24,7 +24,7 @@
           td Stuttgart
         tr
           th.title.is-5 Akademischer Grad
-          td M.Sc. Physik
+          td M. Sc. Physik
         tr
           th.title.is-5 Web
           td

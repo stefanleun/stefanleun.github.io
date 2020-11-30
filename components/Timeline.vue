@@ -9,9 +9,9 @@
       .timeline-content
         p.title.is-5.timeline-title {{ item.title }}
         p
-          | {{item.subtitle }} |   
+          | {{ item.subtitle }} |   
           | {{ item.time }}
-        p {{ item.descr }}
+        p(v-html="item.descr")
 </template>
 
 <script>
