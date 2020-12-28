@@ -39,16 +39,16 @@ export default {
 @import '~/assets/sass/variables.sass'
 
 .primary-box
-    background-color: $primary;
+    background-color: $primary
     color: white;
 
 .secondary-box
-    background-color: $secondary;
+    background-color: $secondary
 
 .tertiary-box
-    background-color: $tertiary;
+    background-color: $tertiary
 
 .quaternary-box
-    background-color: $quaternary;
+    background-color: $quaternary
 
 </style>

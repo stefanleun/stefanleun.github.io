@@ -7,11 +7,11 @@
 
 <style scoped lang="sass">
 .sidebar-logo
-    padding-bottom: 100px;
+    padding-bottom: 100px
 
 #nav
-    border: 0px solid black;
-    margin-top: 10vh;
-    position: fixed;
+    border: 0px solid black
+    margin-top: 10vh
+    position: fixed
 
 </style>

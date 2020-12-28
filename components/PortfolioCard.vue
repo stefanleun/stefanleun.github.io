@@ -21,6 +21,6 @@ export default {
 @import '~/assets/sass/variables.sass'
 
 ion-icon
-    color: $secondary;
+    color: $secondary
 
 </style>

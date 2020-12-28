@@ -26,9 +26,9 @@ export default {
 @import '~/assets/sass/variables.sass'
 
 ion-icon
-    color: $secondary;
+    color: $secondary
 
 .timeline-title
-    margin-bottom: 0px;
+    margin-bottom: 0px
 
 </style>

@@ -64,28 +64,26 @@ export default {
 </script>
 
 <style lang="sass">
-@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "~/node_modules/bulma/sass/utilities/derived-variables";
-@import "~/node_modules/bulma/sass/utilities/mixins.sass";
+@import "~/node_modules/bulma/sass/utilities/_all"
 
 .sleun-about
-    width: 75%;
-    max-width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75%
+    max-width: 250px
+    display: block
+    margin-left: auto
+    margin-right: auto
 
 .details-div
-    margin-top: 15px;
+    margin-top: 15px
 
 .details
-    display: inline-block;
-    float: left;
+    display: inline-block
+    float: left
     width: 50%
     +touch
       width: 100%
 
     li 
-      margin-bottom: 10px;
+      margin-bottom: 10px
 
 </style>

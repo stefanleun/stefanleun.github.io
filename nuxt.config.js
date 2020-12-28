@@ -37,19 +37,9 @@ export default {
   ],
   components: true,
   modules: [
-    '@nuxtjs/bulma',
     '@nuxt/content'
   ],
   plugins: [{ src: '~plugins/ga.js', mode: 'client' }], // Google Analytics
-  build: {
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false
-        }
-      }
-    },
-  },
   router: {
     linkExactActiveClass: 'is-active'
   }

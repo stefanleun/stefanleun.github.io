@@ -15,15 +15,12 @@
 </template>
 
 <style scoped lang="sass">
-@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "~/node_modules/bulma/sass/utilities/derived-variables";
-@import "~/node_modules/bulma/sass/utilities/mixins.sass";
-@import "~/node_modules/bulma/sass/elements/icon.sass";
+@import "~/node_modules/bulma/sass/utilities/_all"
 @import '~/assets/sass/variables.sass'
 
 span.icon.contact-icon
   @extend .is-large
   +touch
-    height: 1.8rem;
-  color: $primary;
+    height: 1.8rem
+  color: $primary
 </style>

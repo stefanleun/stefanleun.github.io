@@ -32,26 +32,24 @@ export default {
 </script>
 
 <style lang="sass">
-@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "~/node_modules/bulma/sass/utilities/derived-variables";
-@import "~/node_modules/bulma/sass/utilities/mixins.sass";
+@import "~/node_modules/bulma/sass/utilities/_all"
 
 .fullheight
-    min-height: 100vh;
+    min-height: 100vh
 
 .sidebar-column
-    box-shadow: 0px 0px 30px rgba(0,0,0,0.09);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.09)
 
 .main
-    min-height: 100%;
-    padding: 3rem 3rem;
+    min-height: 100%
+    padding: 3rem 3rem
     +touch
-        padding: 1.0rem 1.0rem;
+        padding: 1.0rem 1.0rem
 
 .has-background-image
-    background: url('~assets/image.png'), linear-gradient(rgba(39,101,145,1) 0%, rgba(54,58,70,1) 100%);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: contain;
+    background: url('~assets/image.png'), linear-gradient(rgba(39,101,145,1) 0%, rgba(54,58,70,1) 100%)
+    background-repeat: no-repeat
+    background-position: bottom center
+    background-size: contain
 
 </style>

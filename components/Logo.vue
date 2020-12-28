@@ -8,31 +8,29 @@
 </template>
 
 <style lang="sass">
-@import "~/node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "~/node_modules/bulma/sass/utilities/derived-variables";
-@import "~/node_modules/bulma/sass/utilities/mixins.sass";
-@import '~/assets/sass/variables.sass'
+@import "~/node_modules/bulma/sass/utilities/_all"
+@import "~/assets/sass/variables.sass"
 
 .logo
-    padding: 0.5em 0.75em;
+    padding: 0.5em 0.75em
     +touch
-      padding: 0em 0em;
+      padding: 0em 0em
 
 .stefan
-    display: inline;
-    font-family: $family-sans-serif;
-    font-weight: 400;
-    color: $grey;
+    display: inline
+    font-family: $family-sans-serif
+    font-weight: 400
+    color: $grey
 
 .leun
-    display: inline;
-    font-family: $family-serif;
-    font-weight: 600;
-    color: $primary;
+    display: inline
+    font-family: $family-serif
+    font-weight: 600
+    color: $primary
 
 .mysubtitle
-    font-size: 0.93rem;
-    font-family: $family-serif;
+    font-size: 0.93rem
+    font-family: $family-serif
 
 </style>
 

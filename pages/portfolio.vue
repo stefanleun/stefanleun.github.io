@@ -28,5 +28,5 @@ export default {
 
 <style lang="sass">
 .portfolio-tiles
-    flex-wrap: wrap;
+    flex-wrap: wrap
 </style>
