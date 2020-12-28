@@ -6,8 +6,7 @@
       .column.is-one-third
         figure.image.sleun-about
           img.is-rounded(src="~/assets/sleun.png")
-      .column
-        | {{ description }}
+      .column(v-html="description")
         .details-div
           ul.details
             li
