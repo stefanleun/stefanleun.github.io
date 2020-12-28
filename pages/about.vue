@@ -1,6 +1,6 @@
 <template lang="pug">
   div 
-    h3.title.is-3 Über
+    h3.title.is-3 About
 
     .columns.is-variable.is-8.is-vcentered
       .column.is-one-third
