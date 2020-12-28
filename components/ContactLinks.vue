@@ -16,7 +16,8 @@
 
 <style scoped lang="sass">
 @import "~/node_modules/bulma/sass/utilities/_all"
-@import '~/assets/sass/variables.sass'
+@import "~/node_modules/bulma/sass/elements/icon"
+@import "~/assets/sass/variables.sass"
 
 span.icon.contact-icon
   @extend .is-large
