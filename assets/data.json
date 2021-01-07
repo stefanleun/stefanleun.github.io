@@ -1,5 +1,5 @@
 {
-  "Beschreibung": "Als Unternehmensberater im Bereich Digitale Transformation bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> erarbeite ich  in enger Zusammenarbeit mit dem Kunden individuelle und nutzerfreundliche datengetriebene Lösungen. Hierbei unterstütze ich ganzheitlich - von der Ideenfindung über Konzeption und Implementierung bis hin zur Operationalisierung. Meine Schwerpunkte liegen in den Bereichen Data Science, Machine Learning, Web-Entwicklung und Projektmanagement. In meinem Arbeitsalltag setze ich auf agile Methoden, moderne Technologien sowie auf meine langjährige Erfahrung in der Datenanalyse und Programmierung. Kontinuerliches Lernen und eine offene Kommunikation bilden die Grundlage all meiner Projekte.",
+  "Beschreibung": "Als Unternehmensberater im Bereich Digitale Transformation bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> erarbeite ich  in enger Zusammenarbeit mit dem Kunden individuelle und nutzerfreundliche datengetriebene Lösungen. Hierbei unterstütze ich ganzheitlich - von der Ideenfindung über Konzeption und Implementierung bis hin zur Operationalisierung. Meine Schwerpunkte liegen in den Bereichen Data Science, Machine Learning, Web-Entwicklung und Projektmanagement. In meinem Arbeitsalltag setze ich auf agile Methoden sowie meine langjährige Erfahrung in der Datenanalyse und Programmierung. Kontinuerliches Lernen und eine offene Kommunikation bilden das Fundament all meiner Projekte.",
   "Kurzbeschreibung": "Data Scientist und Unternehmensberater bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> <br> Datengetriebene Lösungen von Konzeption bis Operationalisierung",
   "Grad": "M. Sc. Physik",
   "Standort": "Stuttgart",
@@ -80,14 +80,14 @@
       "title": "EY, Stuttgart",
       "subtitle": "Senior Consultant / Data Scientist",
       "time": "seit 01/2017",
-      "descr": "<a href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Data Analytics and Emerging Technologies</a>",
+      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Data Analytics and Emerging Technologies</a>",
       "icon": "briefcase"
     },
     {
       "title": "Université de Nice - Sophia-Antipolis, Nizza, Frankreich",
       "subtitle": "Wissenschaftliche Hilfskraft",
       "time": "10/2015 - 12/2016",
-      "descr": "<a href='https://www.nature.com/articles/s41567-019-0460-5'>Grundlagenforschung im Bereich aktiver bakterieller Bewegung</a>",
+      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.nature.com/articles/s41567-019-0460-5'>Grundlagenforschung im Bereich aktiver bakterieller Bewegung</a>",
       "icon": "briefcase"
     },
     {
@@ -101,7 +101,7 @@
       "title": "Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen",
       "subtitle": "Freier wissenschaftlicher Mitarbeiter",
       "time": "12/2013 - 09/2014",
-      "descr": "<a href='https://www.sciencedirect.com/science/article/pii/S1007570416300016'>Grundlagenforschung im Bereich Herzrhytmusstörungen und komplexe Systeme </a>",
+      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.sciencedirect.com/science/article/pii/S1007570416300016'>Grundlagenforschung im Bereich Herzrhytmusstörungen und komplexe Systeme </a>",
       "icon": "briefcase"
     },
     {
