@@ -1,6 +1,6 @@
 {
-  "Beschreibung": "Ich bin Unternehmensberater im Bereich Digitale Transformation bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a>. Als Generalist arbeite ich an der Schnittstelle von Fachbereichen, Entwicklungsteams und Data Science. Mit mehr als 8 Jahren Erfahrung in der Datenanalyse und Programmierung erarbeite ich individuelle und nutzerfreundliche datengetriebene Lösungen. Hierbei verwende ich agile Methoden, moderne Technologien und unterstütze ganzheitlich: von der Ideenfindung über die Konzeption und Implementierung bis hin zur Operationalisierung.",
-  "Kurzbeschreibung": "Als Data Scientist, Web-Entwickler und Unternehmensberater bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> erarbeite ich datengetriebene Lösungen von der Konzeption bis zur Implementierung.",
+  "Beschreibung": "Als Unternehmensberater im Bereich Digitale Transformation bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> erarbeite ich  in enger Zusammenarbeit mit dem Kunden individuelle und nutzerfreundliche datengetriebene Lösungen. Hierbei unterstütze ich ganzheitlich - von der Ideenfindung über Konzeption und Implementierung bis hin zur Operationalisierung. Meine Schwerpunkte liegen in den Bereichen Data Science, Machine Learning, Web-Entwicklung und Projektmanagement. In meinem Arbeitsalltag setze ich auf agile Methoden, moderne Technologien sowie auf meine langjährige Erfahrung in der Datenanalyse und Programmierung. Kontinuerliches Lernen und eine offene Kommunikation bilden die Grundlage all meiner Projekte.",
+  "Kurzbeschreibung": "Data Scientist und Unternehmensberater bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> <br> Datengetriebene Lösungen von Konzeption bis Operationalisierung",
   "Grad": "M. Sc. Physik",
   "Standort": "Stuttgart",
   "Portfolio": [
@@ -21,7 +21,7 @@
     },
     { 
       "title": "Webentwicklung",
-      "descr": "Moderne Full-Stack-Entwicklung von Webanwendungen von der initialen Architekturkonzeption inkl. Datenbankmodellierung bis zur finalen Implementierung und Deployment mittels CI/CD-Pipelines",
+      "descr": "Moderne Full-Stack-Entwicklung von Webanwendungen von der initialen Architekturkonzeption bis zur finalen Implementierung und Deployment mittels CI/CD-Pipelines",
       "icon": "code-slash"
     },
     { 
@@ -31,7 +31,7 @@
     },
     { 
       "title": "Agiles Projektmanagement",
-      "descr": "Modernes, agiles Projektmanagement mit Fokus auf eine effektive und zeitnahe Kommunikation an der Schnittstelle von Fachbereich und Entwicklung.",
+      "descr": "Agiles Projektmanagement mit Fokus auf eine effektive und zeitnahe Kommunikation an der Schnittstelle von Fachbereich und Entwicklung",
       "icon": "people"
     }
   ],
@@ -80,28 +80,28 @@
       "title": "EY, Stuttgart",
       "subtitle": "Senior Consultant / Data Scientist",
       "time": "seit 01/2017",
-      "descr": "Tax Technology and Transformation | Data Analytics and Emerging Technologies",
+      "descr": "<a href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Data Analytics and Emerging Technologies</a>",
       "icon": "briefcase"
     },
     {
       "title": "Université de Nice - Sophia-Antipolis, Nizza, Frankreich",
       "subtitle": "Wissenschaftliche Hilfskraft",
       "time": "10/2015 - 12/2016",
-      "descr": "Forschung im Bereich aktiver bakterieller Bewegung",
+      "descr": "<a href='https://www.nature.com/articles/s41567-019-0460-5'>Grundlagenforschung im Bereich aktiver bakterieller Bewegung</a>",
       "icon": "briefcase"
     },
     {
       "title": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU, Dresden",
       "subtitle": "Wissenschaftliche Hilfskraft",
       "time": "01/2015 - 09/2015",
-      "descr": "Umsetzung einer Versuchsstandssteuerung in LabVIEW",
+      "descr": "Forschung und Entwicklung im Bereich mechanischer Skoliosetherapie",
       "icon": "briefcase"
     },
     {
       "title": "Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen",
       "subtitle": "Freier wissenschaftlicher Mitarbeiter",
       "time": "12/2013 - 09/2014",
-      "descr": "Forschung an einem Projekt zum Thema Chaotische Dynamiken in einem Modell für Herzzellen",
+      "descr": "<a href='https://www.sciencedirect.com/science/article/pii/S1007570416300016'>Grundlagenforschung im Bereich Herzrhytmusstörungen und komplexe Systeme </a>",
       "icon": "briefcase"
     },
     {
@@ -124,7 +124,7 @@
       "title": "Georg-August-Universität Göttingen",
       "subtitle": "Bachelor of Science (B. Sc.) Physik",
       "time": "10/2010 - 09/2013",
-      "descr": "Schwerpunkte: Physik komplexer Systeme, Biophysik, Programmierung und numerische Simlation | &empty; 1,4",
+      "descr": "Schwerpunkte: Physik komplexer Systeme, Biophysik, Programmierung und numerische Simulation | &empty; 1,4",
       "icon": "library"
     }
   ]

@@ -34,8 +34,8 @@ export default {
 
 .description
     +desktop
-        padding-left: 150px
-        padding-right: 150px
+        padding-left: 140px
+        padding-right: 140px
     a
         color: $white-ter
     a:hover
