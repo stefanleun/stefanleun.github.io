@@ -2,11 +2,12 @@
   div 
     h3.title.is-3 About
 
-    .columns.is-variable.is-8.is-vcentered
+    .columns.is-vcentered
       .column.is-one-third
         figure.image.sleun-about
           img.is-rounded(src="~/assets/sleun.png")
-      .column(v-html="description")
+      .column
+        div(v-html="description")
         .details-div
           ul.details
             li
@@ -15,7 +16,6 @@
             li
               span.title.is-5 Standort: 
               | {{ location }}
-          a.button.is-info.is-outlined(href="/contact") Kontakt
 
     .columns.is-multiline.py-5
       Skills(
@@ -76,13 +76,12 @@ export default {
     margin-top: 15px
 
 .details
-    display: inline-block
-    float: left
-    width: 50%
-    +touch
-      width: 100%
-
+    width: 100%
     li 
-      margin-bottom: 10px
+      float: left
+      width: 50%
+      +touch
+        width: 100%
+        padding-bottom: 10px
 
 </style>

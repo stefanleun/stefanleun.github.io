@@ -7,25 +7,6 @@
           th.title.is-5 Name
           td Stefan Leun
         tr
-          th.title.is-5 Beruf
-          td Unternehmensberater
-        tr
-          th.title.is-5 Schwerpunkte
-          td
-            | Data Science
-            br
-            | Machine Learning
-            br
-            | Web-Entwicklung
-            br 
-            | Projektmanagement
-        tr
-          th.title.is-5 Standort
-          td Stuttgart
-        tr
-          th.title.is-5 Akademischer Grad
-          td M. Sc. Physik
-        tr
           th.title.is-5 Web
           td
             a(href="https://stefanleun.com" rel="me") stefanleun.com
