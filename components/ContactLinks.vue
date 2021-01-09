@@ -24,4 +24,8 @@ span.icon.contact-icon
   +touch
     height: 1.8rem
   color: $primary
+  
+  &:hover, &:focus
+    background-color: whitesmoke
+
 </style>
