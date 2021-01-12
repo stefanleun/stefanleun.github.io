@@ -1,6 +1,6 @@
 {
   "name": "stefanleun.com",
-  "description": "Personal website of Stefan Leun",
+  "description": "Website von Stefan Leun, Data Scientist und Unternehmensberater bei EY in Stuttgart. Datengetriebene Lösungen von Konzeption bis Operationalisierung.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

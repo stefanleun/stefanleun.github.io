@@ -54,7 +54,7 @@
       "Django": 3,
       "Nuxt.js/Vue.js": 2,
       "HTML": 2,
-      "LESS/CSS": 2,
+      "LESS/SASS/CSS": 2,
       "JavaScript": 2
     },
     "Tools": {
@@ -128,5 +128,5 @@
       "icon": "library"
     }
   ],
-  "Kontakt": "Lllorem ipsum dolor sit amet     nsectetur adipisicing elit. Nulla eligendi luta voluptate facere molestiae consequatur."
+  "Kontakt": "Interesse an Austausch, Vernetzung oder Zusammenarbeit? <br/> Ich freue mich auf Ihre Nachricht."
 }
