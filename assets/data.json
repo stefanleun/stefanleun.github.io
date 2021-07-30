@@ -5,6 +5,11 @@
   "Standort": "Stuttgart",
   "Portfolio": [
     { 
+      "title": "Agiles Projektmanagement",
+      "descr": "Agiles Projektmanagement mit Fokus auf eine effektive und zeitnahe Kommunikation an der Schnittstelle von Fachbereich und Entwicklung",
+      "icon": "people"
+    },
+    { 
       "title": "Datenanalyse",
       "descr": "Zusammenführung, Aufbereitung, Aggregation und Auswertung von strukturierten und unstrukturierten Daten verschiedenster Quellen unter Zuhilfenahme geeigneter statistischer Methoden",
       "icon": "pulse"
@@ -20,19 +25,14 @@
       "icon": "shuffle"
     },
     { 
-      "title": "Webentwicklung",
-      "descr": "Moderne Full-Stack-Entwicklung von Webanwendungen von der initialen Architekturkonzeption bis zur finalen Implementierung und Deployment mittels CI/CD-Pipelines",
-      "icon": "code-slash"
-    },
-    { 
       "title": "Machine Learning",
       "descr": "Identifikation von Anwendungsmöglichkeiten für Machine Learning-Modelle sowie die Auswahl, Anpassung und Implementierung geeigneter Modelle",
       "icon": "cog"
     },
     { 
-      "title": "Agiles Projektmanagement",
-      "descr": "Agiles Projektmanagement mit Fokus auf eine effektive und zeitnahe Kommunikation an der Schnittstelle von Fachbereich und Entwicklung",
-      "icon": "people"
+      "title": "Webentwicklung",
+      "descr": "Moderne Full-Stack-Entwicklung von Webanwendungen von der initialen Architekturkonzeption bis zur finalen Implementierung und Deployment mittels CI/CD-Pipelines",
+      "icon": "code-slash"
     }
   ],
   "Skillset": {
@@ -58,10 +58,10 @@
       "JavaScript": 2
     },
     "Tools": {
-      "git": 3,
       "Jupyter": 3,
       "Unix": 3,
-      "docker": 2,
+      "Kubernetes & Docker": 2,
+      "MS Azure": 2,
       "MS PowerBI": 2
     },
     "Sprachen": {
