@@ -45,10 +45,10 @@
     },
     "Bibliotheken": {
       "Pandas": 3,
-      "Numpy": 3,
-      "SciPy": 3,
-      "Matplotlib": 3,
-      "scikit-learn": 2
+      "NumPy/SciPy": 3,
+      "Matplotlib/Seaborn": 3,
+      "scikit-learn": 2,
+      "TensorFlow/Keras": 1
     },
     "Web-Entwicklung": {
       "Django": 3,
@@ -60,9 +60,9 @@
     "Tools": {
       "Jupyter": 3,
       "Unix": 3,
-      "Kubernetes & Docker": 2,
       "MS Azure": 2,
-      "MS PowerBI": 2
+      "MS PowerBI": 2,
+      "Kubernetes & Docker": 2
     },
     "Sprachen": {
       "Deutsch": "Muttersprache",
@@ -78,9 +78,9 @@
   "Experience": [
     {
       "title": "EY, Stuttgart",
-      "subtitle": "Senior Consultant / Data Scientist",
+      "subtitle": "Manager / Data Scientist",
       "time": "seit 01/2017",
-      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Data Analytics and Emerging Technologies</a>",
+      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Consulting</a>",
       "icon": "briefcase"
     },
     {
