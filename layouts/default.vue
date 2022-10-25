@@ -12,22 +12,12 @@
 </template>
 
 <script>
-import { disableStr } from '~/plugins/ga.js'
-
 export default {
   computed: {
     showbg () {
      return this.$store.state.background.show 
     }
-  },
-  /* Google Analytics opt-out
-  https://www.datenschutz.org/google-analytics-datenschutz/#schritt-4-optout-installieren
-  */
-  mounted () {
-    if (document.cookie.indexOf(disableStr + '=true') > -1) {
-      window[disableStr] = true;
-    }
-  },
+  }
 }
 </script>
 

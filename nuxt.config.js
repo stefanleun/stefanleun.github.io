@@ -39,7 +39,6 @@ export default {
   modules: [
     '@nuxt/content'
   ],
-  plugins: [{ src: '~plugins/ga.js', mode: 'client' }], // Google Analytics
   router: {
     linkExactActiveClass: 'is-active'
   }
