@@ -1,6 +1,6 @@
 {
-  "Beschreibung": "Als Unternehmensberater im Bereich Digitale Transformation bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> erarbeite ich  in enger Zusammenarbeit mit dem Kunden individuelle und nutzerfreundliche datengetriebene Lösungen. Hierbei unterstütze ich ganzheitlich - von der Ideenfindung über Konzeption und Implementierung bis hin zur Operationalisierung. Meine Schwerpunkte liegen in den Bereichen Data Science, Machine Learning, Web-Entwicklung und Projektmanagement. In meinem Arbeitsalltag setze ich auf agile Methoden sowie meine langjährige Erfahrung in der Datenanalyse und Programmierung. Kontinuerliches Lernen und eine offene Kommunikation bilden das Fundament all meiner Projekte.",
-  "Kurzbeschreibung": "Data Scientist und Unternehmensberater bei <a href='https://www.ey.com/de_de'>EY in Stuttgart</a> <br> Datengetriebene Lösungen von Konzeption bis Operationalisierung",
+  "Beschreibung": "Als Data Scientist im Bereich Automatisiertes Fahren bei <a href='https://www.bosch.com/'>Bosch in Stuttgart</a> erarbeite ich datengetriebene Lösungen. Hierbei unterstütze ich ganzheitlich - von der Ideenfindung über Konzeption und Implementierung bis hin zur Operationalisierung. Meine Schwerpunkte liegen in den Bereichen Data Science, Machine Learning, Web-Entwicklung und Projektmanagement. In meinem Arbeitsalltag setze ich auf agile Methoden sowie meine langjährige Erfahrung in der Datenanalyse und Programmierung. Kontinuerliches Lernen und eine offene Kommunikation bilden das Fundament all meiner Projekte.",
+  "Kurzbeschreibung": "Data Scientist bei <a href='https://www.bosch.com/'>Bosch in Stuttgart</a>",
   "Grad": "M. Sc. Physik",
   "Standort": "Stuttgart",
   "Portfolio": [
@@ -77,9 +77,16 @@
   },
   "Experience": [
     {
+      "title": "Bosch, Stuttgart",
+      "subtitle": "Senior Data Scientist",
+      "time": "seit 10/2022",
+      "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.bosch-mobility-solutions.com/en/mobility-topics/automated-mobility/'>Automated Driving</a>",
+      "icon": "briefcase"
+    },
+    {
       "title": "EY, Stuttgart",
       "subtitle": "Manager / Data Scientist",
-      "time": "seit 01/2017",
+      "time": "01/2017 - 09/2022",
       "descr": "<a target='_blank' rel='noopener noreferrer' href='https://www.ey.com/de_de/tax/technology-data'>Tax Technology and Transformation | Consulting</a>",
       "icon": "briefcase"
     },
