@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
-    "bulma": "^0.9.2",
-    "bulma-timeline": "^3.0.4",
+    "bulma": "^0.9.4",
+    "bulma-timeline": "^3.0.5",
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "fibers": "^5.0.0",
+    "fibers": "^5.0.3",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.0.0",
-    "sass": "^1.47.0",
-    "sass-loader": "^10.1.1"
+    "sass": "^1.55.0",
+    "sass-loader": "^10.3.1"
   }
 }
